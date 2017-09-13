@@ -1,7 +1,16 @@
 #include <iostream>
+#include <string>
+
+#include "../Pila/Pila.h"
 #include "../Cola/Cola.h"
 
+using namespace std;
+
 int main() {
-    std::cout << "Ejercicio 04/02\n" << std::endl;
-    return 0;
+
+    Pila<string> P;
+    Cola<string> C;
+
+    string palabraP,
+
 }
